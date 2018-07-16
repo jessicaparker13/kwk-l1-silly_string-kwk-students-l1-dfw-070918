@@ -63,6 +63,6 @@ sentence.gsub(/a/, "o")
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = "sentence.gsub(/A/, "O")+gsub(/a/, "o")"  # Add your gsub chain here
+sentence = .gsub(/a/, "o") + .gsub(/A/, "O")  # Add your gsub chain here
 
 puts sentence
