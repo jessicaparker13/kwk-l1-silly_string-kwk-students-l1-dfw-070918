@@ -54,10 +54,12 @@ puts proper_sentence
 # Challenge 7: String Switcheroo
 
 def string switcheroo 
-"Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub(/A/, "O") 
+sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
+
+sentence.gsub(/A/, "O") 
 
 
-"Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!".gsub(/a/, "o") 
+sentence.gsub(/a/, "o") 
 
 end 
 
