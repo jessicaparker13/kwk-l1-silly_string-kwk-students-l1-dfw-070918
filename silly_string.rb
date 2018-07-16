@@ -60,4 +60,4 @@ aard = "Astounding aardvarks, arguably an ancient animal, always ate apples and 
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = aard.gsub(/a/, "o") + aard.gsub(/A/, "O")  # Add your gsub chain here
+sentence = aard.gsub(/a/, "o").gsub(/A/, "O")  # Add your gsub chain here
