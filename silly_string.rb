@@ -53,16 +53,11 @@ puts proper_sentence
 
 # Challenge 7: String Switcheroo
  
-sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
-
-sentence.gsub(/A/, "O") 
+aard = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
 
-sentence.gsub(/a/, "o") 
 
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = .gsub(/a/, "o") + .gsub(/A/, "O")  # Add your gsub chain here
-
-puts sentence
+sentence = aard.gsub(/a/, "o") + aard.gsub(/A/, "O")  # Add your gsub chain here
